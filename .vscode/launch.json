@@ -5,7 +5,7 @@
 			"name": "Launch",
 			"type": "node",
 			"request": "launch",
-			"program": "object-creation/create.js",
+			"program": "object-creation/assign.js",
 			"stopOnEntry": false,
 			"args": [],
 			"cwd": ".",

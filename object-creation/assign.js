@@ -22,7 +22,7 @@ let afa = function afa() {
   
   return Object.assign(Object.create(animal1), {
     // Object customisation
-    animalType: { value: 'animal with create'},    
+    animalType: 'animal with assign',    
     
     // object extension. The new objects created here get 3 new members:
     // - a private member
@@ -30,15 +30,13 @@ let afa = function afa() {
     // - a new method to access the private member
     
     // new public member
-    color: { value: 'green' },
+    color: 'green',
     
-    // method which can access the private members
-    secret: {
-      get: function () { return priv; },
-      set: function (value) { priv = value; },
-    }
+    // methods which can access the private members
+    get secret() { return priv; },
+    //TODO: find the right syntax for the setter    
   });
-}
+};
 
 // creation of an animal instance
 let taa = afa();
@@ -52,4 +50,8 @@ console.log(taa.__proto__.__proto__.__proto__);
 console.log(taa.describe());
 
 console.log(`Taa color is "${taa.color}"`);
-console.log(`Taa secret is "${taa.getSecret()}"`);
+console.log(`Taa secret is "${taa.secret}"`);
+// // Set the private member
+// tac.secret = "It's a secret";
+// // Check it has changed
+// console.log(`Taa secret is "${taa.secret}"`);
