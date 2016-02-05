@@ -34,7 +34,7 @@ let afa = function afa() {
     
     // methods which can access the private members
     get secret() { return priv; },
-    //TODO: find the right syntax for the setter    
+    set secret(value) {priv = value},
   });
 };
 
@@ -51,7 +51,7 @@ console.log(taa.describe());
 
 console.log(`Taa color is "${taa.color}"`);
 console.log(`Taa secret is "${taa.secret}"`);
-// // Set the private member
-// tac.secret = "It's a secret";
-// // Check it has changed
-// console.log(`Taa secret is "${taa.secret}"`);
+// Set the private member
+tac.secret = "It's a secret";
+// Check it has changed
+console.log(`Taa secret is "${taa.secret}"`);
