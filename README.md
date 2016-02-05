@@ -10,7 +10,7 @@ or unit testing? are some very basic questions I want to answer to be able to st
 
 The ideas exposed here don't pretend to be exhaustive. I've understood in Js, there are often many ways to code a single idea. In such cases, I try to take the best practises read from famous Js fellows. I'll try to publish some links where these examples come from.
 
-This repository is create in early 2016, so all examples are ES6 only.
+This repository is create in early 2016, so all examples are ES6 only. All examples provided in this repository can be run with NodeJs.
 
 There is an order to read and test the source code provided here:
 - [object-creation](https://github.com/romu70/very-first-js-starter-kit/tree/master/object-creation) is where all begins
