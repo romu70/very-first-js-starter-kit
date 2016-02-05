@@ -1,4 +1,4 @@
-# my-very-first-js-starter-kit
+# Very first javascript starter kit
 
 My software development background is not Javascript. As a developer, I grew up with C++, then Java and C#. Strong typed, classes, inheritance were some things I've worked with for years.
 
