@@ -1,7 +1,7 @@
 // ES6 only
 'use strict';
 
-const OBJECT_ID = "Animal 3"; 
+// This is the module (= objects and functions) to be exported for future use.
 
 let animal3 = {
   animalType: 'animal3',
@@ -10,10 +10,8 @@ let animal3 = {
     return `This is "${this.animalType}"`;
   },
   
-  get type() { return OBJECT_ID; },
+  get type() { return this.animalType; },
 };
-
-exports.animal3 = animal3;
 
 // Only the factory is exported
 exports.a3f = function a3f() {
