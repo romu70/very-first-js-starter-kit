@@ -8,4 +8,4 @@ Keep in mind the Js VM runs this simple sequence:
 
 This example shows hoisting can lead to bugs probably difficult to find.
 
-BEST PRACTISE: do NOT "play" with hoisting, keep things lain and simple.
+ADVICE: do NOT "play" with hoisting, keep things lain and simple.
