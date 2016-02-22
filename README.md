@@ -16,3 +16,4 @@ There is an order to read and test the source code provided here:
 - [object-creation](https://github.com/romu70/very-first-js-starter-kit/tree/master/object-creation) is where all begins
 - [modules](https://github.com/romu70/very-first-js-starter-kit/tree/master/modules)
 - [hoisting](https://github.com/romu70/very-first-js-starter-kit/tree/master/hoisting)
+- [closure](https://github.com/romu70/very-first-js-starter-kit/tree/master/closure)

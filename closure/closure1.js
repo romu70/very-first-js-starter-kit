@@ -11,6 +11,7 @@ function f1 () {
   }
 }
 
+// The closure function is returned directly when we well f1.
 var closure = f1();
 // At this point, the execution of f1 is terminated but
 // we can still call the closure and have access to the f1 state.
