@@ -17,3 +17,4 @@ There is an order to read and test the source code provided here:
 - [modules](https://github.com/romu70/very-first-js-starter-kit/tree/master/modules)
 - [hoisting](https://github.com/romu70/very-first-js-starter-kit/tree/master/hoisting)
 - [closure](https://github.com/romu70/very-first-js-starter-kit/tree/master/closure)
+- [singleton](https://github.com/romu70/very-first-js-starter-kit/tree/master/singleton)
