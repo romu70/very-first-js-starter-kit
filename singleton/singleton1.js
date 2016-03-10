@@ -1,7 +1,9 @@
 // ES6 only
 'use strict';
 
-// This is a complicated singleton
+// This is a complicated singleton taken from this thread:
+// http://stackoverflow.com/questions/1635800/javascript-best-singleton-pattern
+// All code in this thread are too long and over complicated, see other singleton proposals.
 var Singleton = (function () {
     var instance;
   

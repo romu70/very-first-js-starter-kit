@@ -13,7 +13,11 @@ var singleton = (function () {
             return counter;
         }
     };
-})(); // The "singleton" part is made thanks to the immediately invoked function
+})();
+
+// The function is anonymous, so can't be called in the code,
+// and it is immediately invoked. It returns an object which acts
+// on a private counter.
     
 console.log(`Works? ${singleton.getCounter()}`);  
     
