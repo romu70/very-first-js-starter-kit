@@ -25,12 +25,17 @@ let animal = {
   
   // not anonymous
   fact2: function fact2(n) {
-    // By using a recursive function,
-    // we're going to check whether such function syntax is anonymous or not.
     if(n === 1) {
       return 1;
     }
     return (n * fact2(n - 1));
+  },
+  
+  throw1() {
+    throw new Error('Exception in throw1');
+  },
+  throw2: function throw2() {
+    throw new Error('Exception in throw2');    
   }
 };
 
@@ -42,3 +47,7 @@ console.log(animal.__proto__.__proto__);
 console.log(animal.describe()); // This is "animal"
 console.log(animal.fact(3)); // 6
 console.log(animal.fact2(3)); // 6
+
+// Both ways show the real function name in the stack trace, great!
+// animal.throw1(); 
+// animal.throw2();
