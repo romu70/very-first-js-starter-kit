@@ -13,7 +13,8 @@ The ideas exposed here don't pretend to be exhaustive. I've understood there are
 This repository is create in early 2016, so all examples are ES6 only. All examples provided in this repository can be run with NodeJs 5.x.
 
 There is an order to read and test the source code provided here:
-- [object-creation](https://github.com/romu70/very-first-js-starter-kit/tree/master/object-creation) is where all begins
+- [object](https://github.com/romu70/very-first-js-starter-kit/tree/master/object) is where all begins
+- [object-creation](https://github.com/romu70/very-first-js-starter-kit/tree/master/object-creation)
 - [modules](https://github.com/romu70/very-first-js-starter-kit/tree/master/modules)
 - [hoisting](https://github.com/romu70/very-first-js-starter-kit/tree/master/hoisting)
 - [closure](https://github.com/romu70/very-first-js-starter-kit/tree/master/closure)
