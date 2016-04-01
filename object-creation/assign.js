@@ -35,6 +35,7 @@ let afa = function afa() {
     // methods which can access the private members
     get secret() { return priv; },
     set secret(value) {priv = value},
+    amethod() { console.log("a method which has access to private members."); }
   });
 };
 
@@ -52,6 +53,18 @@ console.log(taa.describe());
 console.log(`Taa color is "${taa.color}"`);
 console.log(`Taa secret is "${taa.secret}"`);
 // Set the private member
-tac.secret = "It's a secret";
+taa.secret = "It's a secret";
 // Check it has changed
 console.log(`Taa secret is "${taa.secret}"`);
+
+taa.amethod();
+
+// Create 20k instance and measure the time it takes
+let hrstart = process.hrtime();
+
+for(let i = 0; i < 20000; i++) {
+    let o = afa();
+}
+
+let hrend = process.hrtime(hrstart);
+console.log("Execution time (hr): %ds %dms", hrend[0], hrend[1]/1000000);
