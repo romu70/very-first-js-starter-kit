@@ -5,7 +5,7 @@
 			"name": "Launch",
 			"type": "node",
 			"request": "launch",
-			"program": "${workspaceRoot}/singleton/singleton3/use.js",
+			"program": "${workspaceRoot}/object/literal.js",
 			"stopOnEntry": false,
 			"args": [],
 			"cwd": ".",
