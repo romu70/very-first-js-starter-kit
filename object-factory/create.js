@@ -62,11 +62,11 @@ tac.amethod();
 
 
 // Create 20k instance and measure the time it takes
-let hrstart = process.hrtime();
+let hrstartc = process.hrtime();
 
 for(let i = 0; i < 20000; i++) {
     let o = afc();
 }
 
-let hrend = process.hrtime(hrstart);
-console.log("Execution time (hr): %ds %dms", hrend[0], hrend[1]/1000000);
+let hrendc = process.hrtime(hrstartc);
+console.log("Execution time (hr): %ds %dms", hrendc[0], hrendc[1]/1000000);

@@ -60,11 +60,11 @@ console.log(`Taa secret is "${taa.secret}"`);
 taa.amethod();
 
 // Create 20k instance and measure the time it takes
-let hrstart = process.hrtime();
+let hrstarta = process.hrtime();
 
 for(let i = 0; i < 20000; i++) {
     let o = afa();
 }
 
-let hrend = process.hrtime(hrstart);
-console.log("Execution time (hr): %ds %dms", hrend[0], hrend[1]/1000000);
+let hrenda = process.hrtime(hrstarta);
+console.log("Execution time (hr): %ds %dms", hrenda[0], hrenda[1]/1000000);

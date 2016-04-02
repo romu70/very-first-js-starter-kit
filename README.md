@@ -14,7 +14,7 @@ This repository is create in early 2016, so all examples are ES6 only. All examp
 
 There is an order to read and test the source code provided here:
 - [object](https://github.com/romu70/very-first-js-starter-kit/tree/master/object) is where all begins
-- [object-creation](https://github.com/romu70/very-first-js-starter-kit/tree/master/object-creation)
+- [object-factory](https://github.com/romu70/very-first-js-starter-kit/tree/master/object-factory)
 - [modules](https://github.com/romu70/very-first-js-starter-kit/tree/master/modules)
 - [hoisting](https://github.com/romu70/very-first-js-starter-kit/tree/master/hoisting)
 - [closure](https://github.com/romu70/very-first-js-starter-kit/tree/master/closure)
