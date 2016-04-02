@@ -1,4 +1,4 @@
-# Object creation
+# Object factory
 
 In Js, there are basically 3 ways to create objects:
 - Object literal notation (something close to Json)
@@ -12,3 +12,5 @@ Once we've chosen the literal notation, there are 2 ways to create objects with 
 - using Object.assign which will also use Object.create
  
 Both ways offer encapsulation and allow objects customisation.
+
+Examples provided here show using assign is faster despite the fact that it's 2 fonction call (create, then assign).
