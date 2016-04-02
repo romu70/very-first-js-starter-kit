@@ -13,4 +13,4 @@ Once we've chosen the literal notation, there are 2 ways to create objects with 
  
 Both ways offer encapsulation and allow objects customisation.
 
-Examples provided here show using assign is faster despite the fact that it's 2 fonction call (create, then assign).
+Examples provided here show using assign is faster despite the fact that it's 2 fonction call (create, then assign). Cherry on the cake, using assign allows a much much cleaner syntax than just usng create.
